@@ -191,11 +191,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 🟢 **Active Development** - Regularly updated and maintained
 
-**Current Version**: 1.0.0
+**Current Version**: 0.2a
 **Unity Version**: 2022.3 LTS
 **AR Foundation**: 5.0+
 **Platform Support**: Android (ARCore), iOS (ARKit)
 
 ---
 
-*Built with ❤️ for the aviation and AR communities*
+*Built with ❤️ for M8 Int-tech and AR communities*
