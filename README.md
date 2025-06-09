@@ -17,9 +17,10 @@ A Unity-based augmented reality application that displays real-time aircraft pos
 
 ## 🚀 Quick Start
 
-![ARappStartExample](https://github.com/user-attachments/assets/d7550b2c-d6af-4cdc-96a5-b14e4950c07e)
-![ARappSpecific](https://github.com/user-attachments/assets/46658fd1-021b-406b-9a5a-d89187cd532e)
-
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/d7550b2c-d6af-4cdc-96a5-b14e4950c07e" width="45%" alt="ARappStartExample">
+  <img src="https://github.com/user-attachments/assets/46658fd1-021b-406b-9a5a-d89187cd532e" width="45%" alt="ARappSpecific">
+</div>
 ### Prerequisites
 
 - Unity 2022.3+ with AR Foundation package
