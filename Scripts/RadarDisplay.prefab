@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8252893954748725724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5261409377105105004}
+  - component: {fileID: 9197238864416466165}
+  - component: {fileID: -8713498578826325517}
+  m_Layer: 0
+  m_Name: RadarDisplay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5261409377105105004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8252893954748725724}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9197238864416466165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8252893954748725724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0af35acc7b6580f48ad02a36744ad211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radarPlanePrefab: {fileID: 1158090585536836416, guid: fcb21f213010b174686edb5c20238bb8,
+    type: 3}
+  centerMarkerPrefab: {fileID: 8996841495641414329, guid: ab73af066d9a9894187a9598595cf49d,
+    type: 3}
+  radarRingMaterial: {fileID: 2100000, guid: bbb56ac3cf3c61a46ab3887c0fdbda8f, type: 2}
+  radarGridMaterial: {fileID: 2100000, guid: d5774351bc3ae4ad393dc1d142ff4235, type: 2}
+  altitudeRingMaterial: {fileID: 2100000, guid: f5ccd52dc494e054fbe7d7161dcabe25,
+    type: 2}
+  radarDisplayRadiusMeters: 1000
+  radarRealWorldRangeKm: 10
+  radarAltitudeScale: 0.0002
+  radarBaseHeight: 0.01
+  radarMaxHeightMeters: 0.3
+  radarPlaneIconScale: {x: 0.008, y: 0.008, z: 0.008}
+  numberOfRangeRings: 5
+  numberOfAltitudeRings: 6
+  altitudeRingSpacing: 10000
+  rangeRingColor: {r: 0, g: 1, b: 0, a: 1}
+  gridColor: {r: 0, g: 1, b: 1, a: 1}
+  altitudeRingColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  showCompassLabels: 1
+  show3DAltitudeMarkers: 1
+  useTestLocation: 1
+  testLatitude: 52.2215
+  testLongitude: 6.8937
+  testAltitude: 50
+  staleTimeThreshold: 120
+  updateRateLimit: 0.1
+  minimumMovementThreshold: 0.001
+  positionSmoothingSpeed: 3
+  interpolationSpeed: 0.1
+  metricLabelsInitiallyVisible: 1
+  planeLabelsInitiallyVisible: 0
+--- !u!114 &-8713498578826325517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8252893954748725724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d70ab898283ca4e4e9763956df5c36a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planeAddress: 
