@@ -2,6 +2,7 @@
 # AR Aircraft Tracker
 
 A Unity-based augmented reality application that displays real-time aircraft positions from ADS-B data streams in a 3D radar visualization overlaid on the real world.
+App was initialy created for a Uni project (M8 int-tech) however, due to the success of the app I will further optimize, improve and eventually release the app as a 3d flight tracker.
 
 ## 🌟 Features
 
